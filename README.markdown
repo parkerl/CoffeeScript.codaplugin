@@ -3,15 +3,15 @@ CoffeeScript Coda plug-in
 
 Contains the following commands specific to the current file:
 
-*Compile - compiles the CoffeeScript and opens the JavaScript result in a new file
-*Compile and Run - compiles the CoffeeScript and opens the JavaScript result in Coda "Preview" inside <script></script> tags. Console output should be shown.
+* Compile - compiles the CoffeeScript and opens the JavaScript result in a new file
+* Compile and Run - compiles the CoffeeScript and opens the JavaScript result in Coda "Preview" inside <script></script> tags. Console output should be shown.
 
 Prerequisites
 -------------
 
--Node.js (http://nodejs.org/)[http://nodejs.org/]
+- Node.js (http://nodejs.org/)[http://nodejs.org/]
 
--CoffeeScript (http://jashkenas.github.com/coffee-script/#installation)[http://jashkenas.github.com/coffee-script/#installation]
+- CoffeeScript (http://jashkenas.github.com/coffee-script/#installation)[http://jashkenas.github.com/coffee-script/#installation]
 
 
 
