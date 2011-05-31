@@ -9,9 +9,9 @@ Contains the following commands specific to the current file:
 Prerequisites
 -------------
 
-- Node.js (http://nodejs.org/)[http://nodejs.org/]
+- Node.js http://nodejs.org/
 
-- CoffeeScript (http://jashkenas.github.com/coffee-script/#installation)[http://jashkenas.github.com/coffee-script/#installation]
+- CoffeeScript http://jashkenas.github.com/coffee-script/#installation
 
 
 
