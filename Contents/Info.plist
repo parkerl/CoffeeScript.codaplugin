@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CodaScriptPlugIn</string>
+	<key>CFBundleIconFile</key>
+	<string>plug-in</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.panic.CodaScriptPlugIn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>CodaPlugInMinimumAPIVersion</key>
+	<string>3</string>
+	<key>NSPrincipalClass</key>
+	<string>CodaScriptPlugIn</string>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>fallbackInput</key>
+			<string>document</string>
+			<key>input</key>
+			<string>selection</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
+			<key>name</key>
+			<string>Compile</string>
+			<key>output</key>
+			<string>newDocument</string>
+			<key>script</key>
+			<string>compile_coffee_script</string>
+			<key>uuid</key>
+			<string>A009CE15-59AD-4F5C-A308-FEC9B4550B4E</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>document</string>
+			<key>input</key>
+			<string>selection</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
+			<key>name</key>
+			<string>Compile and Run</string>
+			<key>output</key>
+			<string>showAsHTML</string>
+			<key>script</key>
+			<string>run_coffee_script</string>
+			<key>uuid</key>
+			<string>74B8DD04-7017-4F49-A81B-D362A6A88177</string>
+		</dict>
+	</array>
+</dict>
+</plist>

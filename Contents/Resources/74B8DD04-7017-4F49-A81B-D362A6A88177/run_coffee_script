@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export PATH=/usr/local/bin:$PATH
+
+echo "<script>"
+coffee -sp $1
+echo "</script>"
