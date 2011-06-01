@@ -16,7 +16,7 @@ Contains the following commands specific to the current file:
   
     <html>
     <head>
-    <script src="file://///Users/parker/Library/Application Support/Coda/Plug-ins/CoffeeScript.codaplugin/Contents/Resources/D045B81C-A3ED-47B1-A5E7-3C2216B695EA/Support Files/jquery-1.6.1.min.js">
+    <script src="file://///Users/XXXXX/Library/Application Support/Coda/Plug-ins/CoffeeScript.codaplugin/Contents/Resources/D045B81C-A3ED-47B1-A5E7-3C2216B695EA/Support Files/jquery-1.6.1.min.js">
     </script>
     </head>
     <body>
