@@ -5,7 +5,7 @@ Contains the following commands specific to the current file:
 
 * Compile - compiles the CoffeeScript and opens the JavaScript result in a new file
 * Compile and Run - compiles the CoffeeScript and opens the JavaScript result in Coda "Preview" inside <script></script> tags. Console output should be shown.
-* Compile and run with jQuery - compiles the CoffeeScript and opens the JavaScript result in Coda "Preview". Creates a skeleton page with jQuery included from the package source in the <head>. The current version is **jquery-1.6.1.min**.
+* Compile and Run with JQuery - compiles the CoffeeScript and opens the JavaScript result in Coda "Preview". Creates a skeleton page with jQuery included from the package source in the <head>. The current version is **jquery-1.6.1.min**.
 
   Here is a sample of the output:
   
