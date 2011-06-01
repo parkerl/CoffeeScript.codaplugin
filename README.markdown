@@ -5,6 +5,32 @@ Contains the following commands specific to the current file:
 
 * Compile - compiles the CoffeeScript and opens the JavaScript result in a new file
 * Compile and Run - compiles the CoffeeScript and opens the JavaScript result in Coda "Preview" inside <script></script> tags. Console output should be shown.
+* Compile and run with jQuery - compiles the CoffeeScript and opens the JavaScript result in Coda "Preview". Creates a skeleton page with jQuery included from the package source in the <head>. The current version is **jquery-1.6.1.min**.
+
+  Here is a sample of the output:
+  
+    jQuery ->
+    $('body').prepend "<p>Hot Coffee!!</p>"
+  
+  compiles to:
+  
+    <html>
+    <head>
+    <script src="file://///Users/parker/Library/Application Support/Coda/Plug-ins/CoffeeScript.codaplugin/Contents/Resources/D045B81C-A3ED-47B1-A5E7-3C2216B695EA/Support Files/jquery-1.6.1.min.js">
+    </script>
+    </head>
+    <body>
+    <script>
+    (function() {
+      jQuery(function() {
+        return $('body').prepend("<p>Hot Coffee!!</p>");
+      });
+    }).call(this);
+    </script>
+    </body>
+    <html>
+  
+  
 
 Prerequisites
 -------------
