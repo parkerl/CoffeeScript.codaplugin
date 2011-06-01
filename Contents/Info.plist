@@ -56,6 +56,22 @@
 			<key>uuid</key>
 			<string>74B8DD04-7017-4F49-A81B-D362A6A88177</string>
 		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>document</string>
+			<key>input</key>
+			<string>selection</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
+			<key>name</key>
+			<string>Compile and Run with JQuery</string>
+			<key>output</key>
+			<string>showAsHTML</string>
+			<key>script</key>
+			<string>run_coffee_script_jquery</string>
+			<key>uuid</key>
+			<string>D045B81C-A3ED-47B1-A5E7-3C2216B695EA</string>
+		</dict>
 	</array>
 </dict>
 </plist>

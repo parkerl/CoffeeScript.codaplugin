@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export PATH=/usr/local/bin:$PATH
+echo "<html>"
+echo "<head>"
+echo "<script src=\"file:////$CODA_BUNDLE_SUPPORT/jquery-1.6.1.min.js\">" 
+echo "</script>"
+echo "</head>"
+echo "<body>"
+echo "<script>"
+coffee -sp $1
+echo "</script>"
+echo "</body>"
+echo "<html>"
