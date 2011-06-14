@@ -11,4 +11,4 @@ echo "<script>"
 coffee -sp $1
 echo "</script>"
 echo "</body>"
-echo "<html>"
+echo "</html>"
