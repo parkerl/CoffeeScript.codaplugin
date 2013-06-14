@@ -48,7 +48,7 @@ To install via Git:
 
 		mkdir -p ~/Library/Application\ Support/Coda/Plug-ins
 		cd ~/Library/Application\ Support/Coda/Plug-ins
-		git clone git@github.com:parkerl/CoffeeScript.codaplugin.git
+		git clone git://github.com/parkerl/CoffeeScript.codaplugin.git
 
 Then restart Coda.
 
